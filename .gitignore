@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Package manager
+.pnpm-store/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.svelte-kit/
+.vercel/
+.vite/
+.cache/
+
+# Tests and coverage
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+
+# TypeScript
+*.tsbuildinfo
+
+# Local database/storage artifacts
+*.sqlite
+*.sqlite3
+*.db
+

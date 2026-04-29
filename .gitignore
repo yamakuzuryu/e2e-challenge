@@ -6,6 +6,7 @@ node_modules/
 
 # Package manager
 .pnpm-store/
+.corepack/
 
 # Environment
 .env
@@ -44,4 +45,3 @@ blob-report/
 *.sqlite
 *.sqlite3
 *.db
-

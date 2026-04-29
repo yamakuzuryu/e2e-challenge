@@ -1,0 +1,14 @@
+{
+  "name": "@e2e-challenge/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@e2e-challenge/auth": "workspace:*",
+    "@e2e-challenge/core": "workspace:*",
+    "hono": "4.12.15"
+  }
+}

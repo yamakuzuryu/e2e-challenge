@@ -1,0 +1,13 @@
+{
+  "name": "@e2e-challenge/auth",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@e2e-challenge/core": "workspace:*",
+    "better-auth": "1.6.9"
+  }
+}

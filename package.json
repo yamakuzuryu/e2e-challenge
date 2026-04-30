@@ -8,15 +8,24 @@
     "check": "vp check",
     "test": "vp test",
     "build": "vp build",
-    "tasks": "vp run"
+    "tasks": "vp run",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx packages/db/src/seed.ts",
+    "db:studio": "drizzle-kit studio",
+    "local:postgres:up": "docker compose up -d postgres",
+    "local:postgres:down": "docker compose down"
   },
   "dependencies": {
     "better-auth": "1.6.9",
     "drizzle-orm": "0.45.2",
     "hono": "4.12.15",
+    "postgres": "3.4.9",
     "zod": "4.3.6"
   },
   "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "tsx": "4.21.0",
     "vite-plus": "0.1.12"
   },
   "engines": {

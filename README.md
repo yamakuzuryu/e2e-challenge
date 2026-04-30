@@ -18,7 +18,9 @@ Milestone 1 is complete: repo directories and planning specs exist.
 
 Milestone 2 is complete: pnpm + Vite+ workspace foundation, shared Zod contracts and API error shape, Drizzle app schema placeholders, auth host boundary, shared config, Hono API stubs, and local tooling verification (`vp check`). See [Milestone 2](docs/milestone-2.md) for the checklist.
 
-Next up is [Milestone 3](docs/plan.md#milestones) in the project plan: local dev services, migrations, and seed strategy.
+Milestone 3 is complete: local Postgres via Docker Compose, `.env.example`, Drizzle config, first migration, app-owned seed data, Payload bootstrap notes, DB scripts, migration/seed validation, and local tooling verification. See [Milestone 3](docs/milestone-3.md) for the checklist.
+
+Next up is Milestone 4 in the project plan: build the Remix vertical slice.
 
 ## Tooling
 

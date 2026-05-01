@@ -29,9 +29,9 @@ Recommended defaults:
 - SvelteKit app: `http://svelte.lvh.me:3001`
 - Payload CMS: `http://cms.lvh.me:3002`
 - Hono API/Auth host: `http://api.lvh.me:3003`
-- Postgres: `5432`
+- Postgres: host port `55432`, container port `5432`
 
-Use `lvh.me` so local services share a parent domain while resolving to loopback. Ports may change if tooling requires it, but changes must be documented.
+Use `lvh.me` so local services share a parent domain while resolving to loopback. Postgres uses host port `55432` to avoid conflicts with any machine-level Postgres on `5432`. Ports may change if tooling requires it, but changes must be documented.
 
 ## Environment Variables
 
